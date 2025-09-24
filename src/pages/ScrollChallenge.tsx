@@ -73,9 +73,9 @@ const ScrollChallenge = () => {
         {showButton && (
           <button
             onClick={handleGiftClick}
-            className="gift-button animate-slide-up flex items-center space-x-3"
+            className="gift-button animate-slide-up flex items-center space-x-2 text-sm px-4 py-2"
           >
-            <Gift className="w-6 h-6" />
+            <Gift className="w-4 h-4" />
             <span>Claim Your Surprise!</span>
           </button>
         )}
@@ -86,6 +86,95 @@ const ScrollChallenge = () => {
           </p>
           <p className="text-xs text-muted-foreground">
             Hope your finger isn't too tired from all that scrolling!
+          </p>
+        </div>
+      </div>
+
+      {/* More troll sections below the button */}
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Wait... you're still scrolling? 😱
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            You have gone too far! Move back! ⬆️
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Seriously, the button was way up there! 😅
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Are you lost? The gift is above! 🎁⬆️
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            This is getting ridiculous... 🙄
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Go back! There's nothing here! 🚫
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Why are you still here? 🤨
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Turn around! The surprise is waiting! 🔄
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Last warning: GO BACK UP! ⚠️⬆️
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            Fine... if you're here, you're really dedicated! 🏆
+          </p>
+        </div>
+      </div>
+
+      <div className="h-screen flex items-center justify-center">
+        <div className="romantic-card animate-slide-up">
+          <p className="text-2xl text-center text-foreground">
+            But still... the button is UP THERE! 👆
           </p>
         </div>
       </div>
