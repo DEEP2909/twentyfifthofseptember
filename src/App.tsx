@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/twentyfifthofseptember">
         <Routes>
           <Route path="/" element={<CountdownPage />} />
           <Route path="/scroll-challenge" element={<ScrollChallenge />} />
