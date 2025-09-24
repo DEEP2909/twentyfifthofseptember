@@ -8,7 +8,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/twentyfifthofseptember/', // 👈 Use your repo name here
+  base: '/twentyfifthofseptember/', // 👈 must match your repo name
 })
 
 // https://vitejs.dev/config/
