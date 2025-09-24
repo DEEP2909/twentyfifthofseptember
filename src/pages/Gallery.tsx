@@ -38,7 +38,7 @@ const Gallery = () => {
     {
       src: "/lovable-uploads/6f460eb7-7d4a-49ce-998b-a5afdce0f20f.png",
       alt: "By the water",
-      caption: "Adventures with you are the best"
+      caption: "The nature's Beauty resides in You"
     },
     {
       src: "/lovable-uploads/5b79de7f-544c-4e7e-b491-95b164be34d3.png",
@@ -69,6 +69,17 @@ const Gallery = () => {
             </h1>
             <Heart className="w-8 h-8 text-primary animate-pulse-slow" fill="currentColor" />
           </div>
+          
+          {/* Congratulatory Messages */}
+          <div className="romantic-card max-w-3xl mx-auto mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              🎉 Congratulations for Completing 2 Years of talking Milestone! 🎉
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Thanks for Tolerating me for two years, but still a whole life is remaining! 💕😊🥰
+            </p>
+          </div>
+          
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Every picture tells a story, every moment is a memory, every memory is a treasure 💕
           </p>
