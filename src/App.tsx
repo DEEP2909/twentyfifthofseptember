@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.PROD ? "/twentyfifthofseptember" : ""}>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<CountdownPage />} />
           <Route path="/scroll-challenge" element={<ScrollChallenge />} />
